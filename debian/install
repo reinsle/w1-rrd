@@ -1,1 +1,2 @@
+w1-rrd.conf etc/debian
 w1-rrd.sh usr/bin
