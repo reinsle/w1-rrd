@@ -1,15 +1,17 @@
 #!/bin/bash
 #
 
-RRD_AUSSEN=/var/lib/rrd/aussen.rrd
-RRD_AUFENTH=/var/lib/rrd/aufenth.rrd
-RRD_VERWALT=/var/lib/rrd/verwalt.rrd
-RRD_UFBUERO=/var/lib/rrd/ufbuero.rrd
+RRD_DIR=/var/lib/rrd
 
-SENSOR_AUSSEN=10-0008025fdbf2
-SENSOR_AUFENTH=10-0008025fed39
-SENSOR_VERWALT=10-0008025ff6a5
-SENSOR_UFBUERO=10-0008025fece9
+RRD_AUSSEN=${RRD_DIR}/aussen.rrd
+RRD_AUFENTH=${RRD_DIR}/aufenth.rrd
+RRD_VERWALT=${RRD_DIR}/verwalt.rrd
+RRD_UFBUERO=${RRD_DIR}/ufbuero.rrd
+
+SENSOR_AUSSEN=10-000802b3f22c
+SENSOR_AUFENTH=10-000802b3f22c
+SENSOR_VERWALT=10-000802b3f22c
+SENSOR_UFBUERO=10-000802b3f22c
 
 PIC_DAY_AUSSEN=/usr/share/nginx/html/temp/aussen_day.png
 PIC_DAY_AUFENTH=/usr/share/nginx/html/temp/aufenth_day.png
