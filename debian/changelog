@@ -1,5 +1,5 @@
-w1-rrd (0.0.1-1) unstable; urgency=low
+w1-rrd (0.0.1-1) UNRELEASED; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
- -- root <root@raspberrypi>  Wed, 19 Mar 2014 11:23:10 +0100
+ -- Robert Einsle <robert@einsle.de>  Wed, 19 Mar 2014 11:23:10 +0100

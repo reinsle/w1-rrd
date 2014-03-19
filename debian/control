@@ -1,15 +1,17 @@
 Source: w1-rrd
-Section: unknown
+Section: utils
 Priority: extra
-Maintainer: root <root@raspberrypi>
+Maintainer: Robert Einsle <robert@einsle.de>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/w1-rrd.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/w1-rrd.git;a=summary
+Homepage: https://github.com/reinsle/w1-rrd
+Vcs-Git: git://github.com/reinsle/w1-rrd.git
 
 Package: w1-rrd
 Architecture: all
-Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: rrdtool
+Description: Tool to create statistics out of w1 Temperatur Sensors
+ This Tool reads out w1-bus Temperatur-Sensors (esp. Dallas DS 18S20)
+ and stores this Temperature-Data into Rrd-Database. Out of this 
+ Database this tool can generate Graphics displaying a Temperature-
+ Graph.
