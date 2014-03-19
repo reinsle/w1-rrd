@@ -2,3 +2,4 @@ debian/files
 debian/w1-rrd.debhelper.log
 debian/w1-rrd.substvars
 debian/w1-rrd/
+.idea
